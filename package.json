@@ -1,0 +1,29 @@
+{
+  "name": "my-mobile-app",
+  "version": "1.0.0",
+  "description": "A simple, user-friendly app designed to make your life easier.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/my-mobile-app.git"
+  },
+  "keywords": [
+    "mobile",
+    "app",
+    "task management",
+    "reminders"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/my-mobile-app/issues"
+  },
+  "homepage": "https://github.com/yourusername/my-mobile-app#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-native": "^0.64.2"
+  }
+}

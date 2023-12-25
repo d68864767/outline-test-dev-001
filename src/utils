@@ -1,0 +1,28 @@
+// src/utils/index.js
+
+// Importing necessary libraries
+const {Alert} = require('react-native');
+
+// Defining a utility function to display alerts
+function showAlert(title, message) {
+  Alert.alert(
+    title,
+    message,
+    [
+      {text: 'OK', onPress: () => console.log('OK Pressed')},
+    ],
+    {cancelable: false},
+  );
+}
+
+// Defining a utility function to format dates
+function formatDate(date) {
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  return date.toLocaleDateString(undefined, options);
+}
+
+// Exporting the utility functions
+module.exports = {
+  showAlert,
+  formatDate
+};

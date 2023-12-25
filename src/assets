@@ -1,0 +1,11 @@
+name:$src/assets/index.js
+
+// This file is used to import and export all assets (images, fonts, etc.)
+
+// Example:
+// export const logo = require('./logo.png');
+
+// After defining assets here, you can import them in your components like this:
+// import { logo } from '../assets';
+
+// Currently, there are no assets defined. Add your assets in this directory and export them in this file.

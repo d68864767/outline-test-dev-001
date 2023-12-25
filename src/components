@@ -1,0 +1,33 @@
+// src/components/index.js
+
+// Importing necessary libraries and components
+const React = require('react');
+const {View, Text} = require('react-native');
+
+// Defining the Header component
+class Header extends React.Component {
+  render() {
+    return (
+      <View>
+        <Text>This is the Header component</Text>
+      </View>
+    );
+  }
+}
+
+// Defining the Footer component
+class Footer extends React.Component {
+  render() {
+    return (
+      <View>
+        <Text>This is the Footer component</Text>
+      </View>
+    );
+  }
+}
+
+// Exporting the components
+module.exports = {
+  Header,
+  Footer
+};
